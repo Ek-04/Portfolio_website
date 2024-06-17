@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue";
+    box-sizing: border-box;
+}
+body {
+    background-image: url(/images/IMG-20240330-WA0001.jpg);
+    color: #eee7e7;
+}
+.header-text {
+    font-size: 70px;
+    font-weight: 300;
+    letter-spacing: 8px;
+    position: relative;
+    animation: text 2s 1;
+}
+@keyframes text {
+    0% {
+        left: 0;
+        margin-left: -50px;
+    }
+    
+}
+#header
+ {
+height: 70vh;
+background-size: cover;
+background-position: center;
+
+}
+nav 
+{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+nav ul li a{
+    color: #d6c7c7;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav  li  :hover{
+    color: #ff004f;
+    width: 100%;
+
+}
+.about li {
+    list-style:none;
+}
+.about {
+    display: flex;
+    justify-content: center;
+    flex: 1; cursor: pointer;
+    padding: 80px 0;
+    font-size: 40px;
+    color:  #fff;
+    position: relative;
+}
+.about2 {
+    background-image: linear-gradient(rgb(97, 52, 52), rgb(124, 76, 84));
+    display: flex;
+    justify-content: center;
+    flex: 1; cursor: pointer;
+    padding: 80px 0;
+    font-size: 40px;
+    color:  #fff;
+    position: relative;
+
+}
+.about2 :hover{
+    animation: text 3s 2;
+    font-size: 40px;
+
+}
+.about :hover {
+    animation: text 3s 2;
+    font-size: 40px;
+    
+}
+#side-image {
+   border-radius: 70%;
+}
+.footer {
+    background-image: linear-gradient(rgb(97, 52, 52), rgb(124, 76, 84));
+    display: block;
+    justify-content: center;
+    flex: 1; cursor: pointer;
+    padding: 80px 0;
+    font-size: 40px;
+    color:  #fff;
+    position: relative;
+}
+.footer li {
+    list-style: none;
+    text-decoration: none;
+    color: #d6c7c7;
+}
+.footer li a {
+    text-decoration: none;
+    color: #d6c7c7;
+    cursor: pointer;
+
+}
+.footer li :hover {
+   color:#ff004f;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+    .about {
+        padding: 40px 20px;
+    }
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-col-1, .about-col-2 {
+        flex-basis: 100%;
+        width: 100%;
+    }
+    .sub-title {
+        font-size: 40px;
+        text-align: center;
+    }
+    .tab-titles {
+        flex-direction: column;
+        align-items: center;
+    }
+    .tab-links {
+        margin: 10px 0;
+    }
+}
