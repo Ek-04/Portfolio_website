@@ -5,15 +5,8 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url(/images/IMG-20240330-WA0001.jpg);
+    background-color: #3E363E;
     color: #eee7e7;
-}
-.header-text {
-    font-size: 70px;
-    font-weight: 300;
-    letter-spacing: 8px;
-    position: relative;
-    animation: text 2s 1;
 }
 @keyframes text {
     0% {
@@ -24,8 +17,7 @@ body {
 }
 #header
  {
-height: 70vh;
-background-size: cover;
+height: 30vh;
 background-position: center;
 
 }
@@ -63,48 +55,17 @@ nav  li  :hover{
 .about li {
     list-style:none;
 }
-.about {
-    display: flex;
-    justify-content: center;
-    flex: 1; cursor: pointer;
-    padding: 80px 0;
-    font-size: 40px;
-    color:  #fff;
-    position: relative;
-}
-.about2 {
-    background-image: linear-gradient(rgb(97, 52, 52), rgb(124, 76, 84));
-    display: flex;
-    justify-content: center;
-    flex: 1; cursor: pointer;
-    padding: 80px 0;
-    font-size: 40px;
-    color:  #fff;
-    position: relative;
 
-}
-.about2 :hover{
-    animation: text 3s 2;
-    font-size: 40px;
-
-}
-.about :hover {
-    animation: text 3s 2;
-    font-size: 40px;
-    
-}
-#side-image {
-   border-radius: 70%;
-}
 .footer {
     background-image: linear-gradient(rgb(97, 52, 52), rgb(124, 76, 84));
     display: block;
     justify-content: center;
     flex: 1; cursor: pointer;
     padding: 80px 0;
-    font-size: 40px;
+    font-size: 20px;
     color:  #fff;
     position: relative;
+    margin-top: 20px;
 }
 .footer li {
     list-style: none;
@@ -121,7 +82,7 @@ nav  li  :hover{
    color:#ff004f;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
     }
@@ -150,4 +111,48 @@ nav  li  :hover{
     .tab-links {
         margin: 10px 0;
     }
+} */
+
+.container2{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-left: 40px;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #865D36;
+    box-sizing: border-box;
+    border-radius: 12px;
+    
+
+}
+.column2 img{
+    width: 200px;
+    height: auto;
+    object-fit:cover;
+    border-radius: 70px;
+
+}
+.container1{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    font-size: 70px;
+    letter-spacing: 8px;
+    position: relative;
+    animation: text 2s 1;
+    padding: 0%;
+    margin-left: 10px;
+}
+.container3 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-left: 40px;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #865D36;
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin-top: 20px;
 }
