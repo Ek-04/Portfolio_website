@@ -60,7 +60,6 @@ nav  li  :hover{
     width: 50%;
     align-items: center;
 
-
 }
 .back-video {
     position: fixed;
@@ -75,6 +74,19 @@ nav  li  :hover{
    height: 400px; 
    background-color: #361841;
     border-radius: 20px;
+    color: #f3eff5;
+}
+.container h1{
+    padding: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.container p {
+    padding-inline: 20px;
+    margin: 20px;
+    font-size: 25px;
+    line-height: 1.5;
 }
 .column2 img{
     width: 200px;
